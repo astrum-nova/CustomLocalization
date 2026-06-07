@@ -1,7 +1,7 @@
 # CUSTOM LOCALIZATION INSTRUCTIONS
 
 ## FOR USERS
-0: Set the ingame language to ENGLISH, then restart the game to apply the effects of the mod
+0: Set the ingame language to ENGLISH, then restart the game to apply the effects of the mod <br>
 1: Open in `main.lua` <br>
 2: Take a look at `SELECTED_LANGUAGE` and `SUPPORTED_LANGUAGES` <br>
 3: Change `SELECTED_LANGUAGE` to the language you want, as long as it is present in `SUPPORTED_LANGUAGES` <br>
@@ -12,7 +12,7 @@ local SUPPORTED_LANGUAGES = { <br>
 Remember just the language name in between quotes! Dont include the [square brackets]
 
 ## FOR TRANSLATORS
-0: Set the ingame language to ENGLISH so we have a standard translation starting point
+0: Set the ingame language to ENGLISH so we have a standard translation starting point <br>
 1: Open the SUPPORTED_LANGUAGES_FOLDER <br>
 2: Copy and paste an existing language file, and rename the file it to `MY_CUSTOM_LANGUAGE.lua` or whatever language you are implementing <br>
 3: Open `main.lua` <br>
