@@ -7,7 +7,7 @@ local SUPPORTED_LANGUAGES = {
 
 local CUSTOM_LANGUAGE = SUPPORTED_LANGUAGES[SELECTED_LANGUAGE]
 
-local PRINT_ALL_TEXT = true
+local PRINT_ALL_TEXT = false
 
 local kismetTextLib = nil
 RegisterHook("/Script/UMG.TextBlock:SetText", function(Context, Text)
