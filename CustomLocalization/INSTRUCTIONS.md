@@ -2,7 +2,7 @@
 
 ## FOR USERS
 0: Set the ingame language to ENGLISH, then restart the game to apply the effects of the mod <br>
-1: Open in `main.lua` <br>
+1: Open `main.lua` <br>
 2: Take a look at `SELECTED_LANGUAGE` and `SUPPORTED_LANGUAGES` <br>
 3: Change `SELECTED_LANGUAGE` to the language you want, as long as it is present in `SUPPORTED_LANGUAGES` <br>
 >SELECTED_LANGUAGE = "MY_CUSTOM_LANGUAGE" <br>
